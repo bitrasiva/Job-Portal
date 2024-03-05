@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #615b5b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    justify-content: flex-start;
+}
+
+#job-listings {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-listing {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.job-listing h2 {
+    margin-top: 0;
+}
+
+.job-listing p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#search-input:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #98999e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #424242;
+}
+
+#filters select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    flex-basis: calc(33.33% - 5px);
+}
+
+#filters label {
+    flex-basis: calc(33.33% - 5px);
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#filters select:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+#filters .job-type {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#filters .location {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#filters .job-type label {
+    padding-right: 15px;
+}
+
+#filters .location label {
+    padding-right: 15px;
+}
+
+#filters .job-type select {
+    height: 35px;
+}
+
+#filters .location select {
+    height: 35px;
+}
